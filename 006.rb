@@ -4,7 +4,7 @@
 range = 1..100
 
 sum_of_squares = range.reduce(0) { |sum, n| sum + n * n }
-square_of_sums = range.sum * range.sum
+square_of_sums = range.sum ** 2
 
 puts "The result is #{square_of_sums - sum_of_squares}"
 
